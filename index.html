@@ -2,13 +2,61 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="">
+	<title>My Love Chang</title>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
-	<h1>wjj9132.github.io</h1>
-	<h1>wjj9132.github.io</h1>
-	<h1>wjj9132.github.io</h1>
+<div class="jumbotron">
+  <h4 class="display-4">Excel Notes</h4>
+   <p class="lead">If there is a person can always love,This person is LuChang!</p>
+  <p class="lead">There's not much I can do for you,But I take everything seriously !</p>
+  <hr class="my-4">
+</div>
+<div class="alert alert-danger" role="alert">
+  逻辑判断（大于、小于、等于）的结果为布尔值；布尔值的结果只有两种<strong>真（TRUE）</strong>、<strong>假（FALSE）</strong>。
+</div>
+
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">IF()函数</h4>
+  <p>定义 : IF(判断条件,条件成立执行,条件不成立执行)</p>
+  <hr>
+<ul class="list-group">
+  <li class="list-group-item active">说明 : </li>
+  <li class="list-group-item">第一个参数为判断条件，可以是判断的表达式（a > b）形式，可以是直接使用布尔值（TRUE、FALSE）。</li>
+  <li class="list-group-item">第二个参数为第一个参数值为真（TRUE）的时候执行，该参数最终结果将显示在指定单元格中。</li>
+  <li class="list-group-item">第三个参数为第一个参数值为假（FALSE）的时候执行，该参数最终结果将显示在指定单元格中。</li>
+  <li class="list-group-item">第二个参数和第三个参数的值可以是字符（“文字的引用”），数字，或者另一个IF函数继续判断。</li>
+</ul>
+</div>
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">IFS()函数</h4>
+  <p>定义 : IFS(<strong>判断条件1,条件1成立执行</strong>,<strong>判断条件2,条件2成立执行</strong>, ... <strong style="color: coral;">TRUE,前面所有条件不成立执行</strong>)</p>
+  <hr>
+<ul class="list-group">
+  <li class="list-group-item active">说明 : </li>
+  <li class="list-group-item">IFS函数可以有很多参数,但是没两个参数为一组（判断条件,条件成立执行）。</li>
+  <li class="list-group-item">IFS函数最后一组参数需要给出一个布尔值TRUE或者必然会判断成功的条件，用于执行默认的功能。</li>
+   <li class="list-group-item">IFS函数也可以嵌套使用，即在条件判断成功后执行一个IFS或者IF函数。</li>
+</ul>
+</div>
+
+<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading">逻辑运算</h4>
+  <p>定义：逻辑运算的分为与（AND）、或（OR）、非（NOT），返回值也是布尔值（TRUE，FALSE）</p>
+  <hr>
+<ul class="list-group">
+  <li class="list-group-item active">说明 : </li>
+  <li class="list-group-item">与运算：AND（TRUE，TRUE，FALSE）；此时的返回结果为假，即：只要有一个值为假最终的返回值为假</li>
+  <li class="list-group-item">或运算：OR（TRUE，TRUE，FALSE）；此时的返回结果为真，即：只要有一个值为真最终的返回值为真</li>
+  <li class="list-group-item">非运算：NOT（FALSE）；此时的返回结果为真，即：非运算将括号内值取反输出</li>
+</ul>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>
