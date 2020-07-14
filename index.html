@@ -1,155 +1,359 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>My Love Chang</title>
-	
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</head>
-<body>
-<div class="jumbotron">
-  <h4 class="display-4">Excel Notes</h4>
-   <p class="lead">If there is a person can always love,This person is LuChang!</p>
-  <p class="lead">There's not much I can do for you,But I take everything seriously !</p>
-  <hr class="my-4">
-</div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>My Love Chang</title>
+		<!-- <script language="javascript" type="text/javascript" src="/js/jquery-3.4.1.slim.min.js"></script> -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+		 crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		 crossorigin="anonymous"></script>
+	</head>
+	<body>
 
-<div class="card" style="width: 18rem;">
-  <img src="./lc2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">I love you, never stops. </h5>
+<div style="overflow: hidden;position: fixed;right: -25px;bottom: 20px;z-index: 10;">
+	  
+	    	<div style="padding-top:20px;padding-right:50px;padding-bottom:50px">
+				<a href="#fun_tab" style="float: right;" class="btns">
+					<img src="back_top.png" >
+				</a>
+			</div>
+	 
+    </div>
 
-	<div class="spinner-border text-primary" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
-	<div class="spinner-border text-secondary" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
-	<div class="spinner-border text-success" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
-	<div class="spinner-border text-danger" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
-	<div class="spinner-border text-warning" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
-	<div class="spinner-border text-info" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
-	
-   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-  </div>
-</div>
 
-<div class="alert alert-danger" role="alert">
-  逻辑判断（大于、小于、等于）的结果为布尔值；布尔值的结果只有两种<strong>真（TRUE）</strong>、<strong>假（FALSE）</strong>。
-</div>
+		<div class="jumbotron">
+			<h4 class="display-4">Excel Notes</h4>
+			<p class="lead">If there is a person can always love,This person is LuChang!</p>
+			<p class="lead">There's not much I can do for you,But I take everything seriously !</p>
+			<hr class="my-4">
+		</div>
+		<h2> <span class="badge badge-secondary">函数列表</span></h2>
+		<table class="table table-striped table-bordered " id="fun_tab">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">样式</th>
+					<th scope="col">功能</th>
+					<th scope="col">范例</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>=SUM()</td>
+					<td>求和</td>
+					<td>SUM(A1,A2:A10,30)</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>=AVERAGE()</td>
+					<td>求平均值</td>
+					<td>AVERAGE(A1:A10)</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>=COUNT()</td>
+					<td>计算所选数字单元格个数</td>
+					<td>COUNT(A1:A10)</td>
+				</tr>
+				<tr>
+					<th scope="row">4</th>
+					<td>=COUNTA()</td>
+					<td>计算所选非空单元格个数</td>
+					<td>COUNTA(A1:A10)</td>
+				</tr>
+				<tr>
+					<th scope="row">5</th>
+					<td>=MIN()</td>
+					<td>求最小值</td>
+					<td>=MIN(E2:E3)</td>
+				</tr>
+				<tr>
+					<th scope="row">6</th>
+					<td>=MAX()</td>
+					<td>求最大值</td>
+					<td>=MAX(E2:E3)</td>
+				</tr>
+				<tr>
+					<th scope="row">7</th>
+					<td><a style="font-weight: bold;" href="#if_fun">=IF()</a></td>
+					<td>条件判断</td>
+					<td>=IF(条件,条件成立,条件失败)</td>
+				</tr>
+				<tr>
+					<th scope="row">8</th>
+						<td><a style="font-weight: bold;" href="#ifs_fun">=IFS()</a></td>
+					<td>多条件判断</td>
+					<td>=IF(条件1,条件1成立[,条件2,条件2成立...])</td>
+				</tr>
+			</tbody>
+		</table>
 
-<div class="alert alert-success" role="alert">
-  <h4 class="alert-heading">IF()函数</h4>
-  <p>定义 : IF(判断条件,条件成立执行,条件不成立执行)</p>
-  <hr>
-<ul class="list-group">
-  <li class="list-group-item active">说明 : </li>
-  <li class="list-group-item">第一个参数为判断条件，可以是判断的表达式（a > b）形式，可以是直接使用布尔值（TRUE、FALSE）。</li>
-  <li class="list-group-item">第二个参数为第一个参数值为真（TRUE）的时候执行，该参数最终结果将显示在指定单元格中。</li>
-  <li class="list-group-item">第三个参数为第一个参数值为假（FALSE）的时候执行，该参数最终结果将显示在指定单元格中。</li>
-  <li class="list-group-item">第二个参数和第三个参数的值可以是字符（“文字的引用”），数字，或者另一个IF函数继续判断。</li>
-</ul>
-</div>
-<div class="alert alert-success" role="alert">
-  <h4 class="alert-heading">IFS()函数</h4>
-  <p>定义 : IFS(<strong>判断条件1,条件1成立执行</strong>,<strong>判断条件2,条件2成立执行</strong>, ... <strong style="color: coral;">TRUE,前面所有条件不成立执行</strong>)</p>
-  <hr>
-<ul class="list-group">
-  <li class="list-group-item active">说明 : </li>
-  <li class="list-group-item">IFS函数可以有很多参数,但是没两个参数为一组（判断条件,条件成立执行）。</li>
-  <li class="list-group-item">IFS函数最后一组参数需要给出一个布尔值TRUE或者必然会判断成功的条件，用于执行默认的功能。</li>
-   <li class="list-group-item">IFS函数也可以嵌套使用，即在条件判断成功后执行一个IFS或者IF函数。</li>
-</ul>
-</div>
+		<div class="card" style="width: 18rem;">
+			<img src="./lc2.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">I love you, never stops. </h5>
 
-<div class="alert alert-info" role="alert">
-  <h4 class="alert-heading">逻辑运算</h4>
-  <p>定义：逻辑运算的分为与（AND）、或（OR）、非（NOT），返回值也是布尔值（TRUE，FALSE）</p>
-  <hr>
-<ul class="list-group">
-  <li class="list-group-item active">说明 : </li>
-  <li class="list-group-item">与运算：AND（TRUE，TRUE，FALSE）；此时的返回结果为假，即：只要有一个值为假最终的返回值为假</li>
-  <li class="list-group-item">或运算：OR（TRUE，TRUE，FALSE）；此时的返回结果为真，即：只要有一个值为真最终的返回值为真</li>
-  <li class="list-group-item">非运算：NOT（FALSE）；此时的返回结果为真，即：非运算将括号内值取反输出</li>
-</ul>
-</div>
+				<div class="spinner-border text-primary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+				<div class="spinner-border text-secondary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+				<div class="spinner-border text-success" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+				<div class="spinner-border text-danger" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+				<div class="spinner-border text-warning" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+				<div class="spinner-border text-info" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
 
-<hr/>
-<h2> <span class="badge badge-secondary">函数列表</span></h2>
-<table class="table table-striped table-bordered ">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">样式</th>
-      <th scope="col">功能</th>
-      <th scope="col">范例</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>=SUM()</td>
-      <td>求和</td>
-      <td>SUM(A1,A2:A10,30)</td>
-    </tr>
-  <tr>
-    <th scope="row">2</th>
-    <td>=AVERAGE()</td>
-    <td>求平均值</td>
-    <td>AVERAGE(A1:A10)</td>
-  </tr>
-  <tr>
-    <th scope="row">3</th>
-    <td>=COUNT()</td>
-    <td>计算所选数字单元格个数</td>
-    <td>COUNT(A1:A10)</td>
-  </tr>
-  <tr>
-    <th scope="row">4</th>
-    <td>=COUNTA()</td>
-    <td>计算所选非空单元格个数</td>
-    <td>COUNTA(A1:A10)</td>
-  </tr>
-  <tr>
-    <th scope="row">5</th>
-    <td>=MIN()</td>
-    <td>求最小值</td>
-    <td>=MIN(E2:E3)</td>
-  </tr>
-  <tr>
-    <th scope="row">6</th>
-    <td>=MAX()</td>
-    <td>求最大值</td>
-    <td>=MAX(E2:E3)</td>
-  </tr>
-  <tr>
-    <th scope="row">7</th>
-    <td>=IF()</td>
-    <td>条件判断</td>
-    <td>=IF(条件,条件成立,条件失败)</td>
-  </tr>
-  <tr>
-    <th scope="row">8</th>
-    <td>=IFS()</td>
-    <td>多条件判断</td>
-    <td>=IF(条件1,条件1成立[,条件2,条件2成立...])</td>
-  </tr>
-  </tbody>
-</table>
+				<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+			</div>
+		</div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</body>
+		<div class="alert alert-danger" role="alert">
+			逻辑判断（大于、小于、等于）的结果为布尔值；布尔值的结果只有两种<strong>真（TRUE）</strong>、<strong>假（FALSE）</strong>。
+		</div>
+
+		<div class="alert alert-success" role="alert" id="if_fun">
+			<h4 class="alert-heading">IF()函数</h4>
+			<p>定义 : IF(判断条件,条件成立执行,条件不成立执行)</p>
+			<hr>
+			<ul class="list-group">
+				<li class="list-group-item active">说明 : </li>
+				<li class="list-group-item">第一个参数为判断条件，可以是判断的表达式（a > b）形式，可以是直接使用布尔值（TRUE、FALSE）。</li>
+				<li class="list-group-item">第二个参数为第一个参数值为真（TRUE）的时候执行，该参数最终结果将显示在指定单元格中。</li>
+				<li class="list-group-item">第三个参数为第一个参数值为假（FALSE）的时候执行，该参数最终结果将显示在指定单元格中。</li>
+				<li class="list-group-item">第二个参数和第三个参数的值可以是字符（“文字的引用”），数字，或者另一个IF函数继续判断。</li>
+			</ul>
+		</div>
+		<div class="alert alert-success" role="alert" id="ifs_fun">
+			<h4 class="alert-heading">IFS()函数</h4>
+			<p>定义 : IFS(<strong>判断条件1,条件1成立执行</strong>,<strong>判断条件2,条件2成立执行</strong>, ... <strong style="color: coral;">TRUE,前面所有条件不成立执行</strong>)</p>
+			<hr>
+			<ul class="list-group">
+				<li class="list-group-item active">说明 : </li>
+				<li class="list-group-item">IFS函数可以有很多参数,但是没两个参数为一组（判断条件,条件成立执行）。</li>
+				<li class="list-group-item">IFS函数最后一组参数需要给出一个布尔值TRUE或者必然会判断成功的条件，用于执行默认的功能。</li>
+				<li class="list-group-item">IFS函数也可以嵌套使用，即在条件判断成功后执行一个IFS或者IF函数。</li>
+			</ul>
+		</div>
+
+		<div class="alert alert-info" role="alert">
+			<h4 class="alert-heading">逻辑运算</h4>
+			<p>定义：逻辑运算的分为与（AND）、或（OR）、非（NOT），返回值也是布尔值（TRUE，FALSE）</p>
+			<hr>
+			<ul class="list-group">
+				<li class="list-group-item active">说明 : </li>
+				<li class="list-group-item">与运算：AND（TRUE，TRUE，FALSE）；此时的返回结果为假，即：只要有一个值为假最终的返回值为假</li>
+				<li class="list-group-item">或运算：OR（TRUE，TRUE，FALSE）；此时的返回结果为真，即：只要有一个值为真最终的返回值为真</li>
+				<li class="list-group-item">非运算：NOT（FALSE）；此时的返回结果为真，即：非运算将括号内值取反输出</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+
+
+		<div>
+
+			<style type="text/css">
+				.wrap {
+					width: 100%;
+					height: 250px;
+					/*改变左右上下,图片方块移动*/
+					margin: 100px 0px;
+					position: absolute;
+
+				}
+
+				/*包裹所有容器样式*/
+				.cube {
+					width: 200px;
+					height: 200px;
+					margin: 0 auto;
+					transform-style: preserve-3d;
+					transform: rotateX(-30deg) rotateY(-80deg);
+					-webkit-animation: rotate 20s infinite;
+					/*匀速*/
+					animation-timing-function: linear;
+				}
+
+				@-webkit-keyframes rotate {
+					from {
+						transform: rotateX(0deg) rotateY(0deg);
+					}
+
+					to {
+						transform: rotateX(360deg) rotateY(360deg);
+					}
+				}
+
+				.cube div {
+					position: absolute;
+					width: 200px;
+					height: 200px;
+					opacity: 0.8;
+					transition: all .4s;
+				}
+
+				/*定义所有图片样式*/
+				.pic {
+					width: 200px;
+					height: 200px;
+				}
+
+				.cube .out_front {
+					transform: rotateY(0deg) translateZ(100px);
+				}
+
+				.cube .out_back {
+					transform: translateZ(-100px) rotateY(180deg);
+				}
+
+				.cube .out_left {
+					transform: rotateY(90deg) translateZ(100px);
+				}
+
+				.cube .out_right {
+					transform: rotateY(-90deg) translateZ(100px);
+				}
+
+				.cube .out_top {
+					transform: rotateX(90deg) translateZ(100px);
+				}
+
+				.cube .out_bottom {
+					transform: rotateX(-90deg) translateZ(100px);
+				}
+
+				/*定义小正方体样式*/
+				.cube span {
+					display: bloack;
+					width: 100px;
+					height: 100px;
+					position: absolute;
+					top: 50px;
+					left: 50px;
+				}
+
+				.cube .in_pic {
+					width: 100px;
+					height: 100px;
+				}
+
+				.cube .in_front {
+					transform: rotateY(0deg) translateZ(50px);
+				}
+
+				.cube .in_back {
+					transform: translateZ(-50px) rotateY(180deg);
+				}
+
+				.cube .in_left {
+					transform: rotateY(90deg) translateZ(50px);
+				}
+
+				.cube .in_right {
+					transform: rotateY(-90deg) translateZ(50px);
+				}
+
+				.cube .in_top {
+					transform: rotateX(90deg) translateZ(50px);
+				}
+
+				.cube .in_bottom {
+					transform: rotateX(-90deg) translateZ(50px);
+				}
+
+				/*鼠标移入后样式*/
+				.cube:hover .out_front {
+					transform: rotateY(0deg) translateZ(200px);
+				}
+
+				.cube:hover .out_back {
+					transform: translateZ(-200px) rotateY(180deg);
+				}
+
+				.cube:hover .out_left {
+					transform: rotateY(90deg) translateZ(200px);
+				}
+
+				.cube:hover .out_right {
+					transform: rotateY(-90deg) translateZ(200px);
+				}
+
+				.cube:hover .out_top {
+					transform: rotateX(90deg) translateZ(200px);
+				}
+
+				.cube:hover .out_bottom {
+					transform: rotateX(-90deg) translateZ(200px);
+				}
+			</style>
+			<!--/*外层最大容器*/-->
+			<div class="wrap">
+				<!--	/*包裹所有元素的容器*/-->
+				<div class="cube">
+					<!--前面图片 -->
+					<div class="out_front">
+						<img src="img/1.jpg" class="pic">
+					</div>
+					<!--后面图片 -->
+					<div class="out_back">
+						<img src="img/2.jpg" class="pic">
+					</div>
+					<!--左图片 -->
+					<div class="out_left">
+						<img src="img/3.jpg" class="pic">
+					</div>
+					<div class="out_right">
+						<img src="img/4.jpg" class="pic">
+					</div>
+					<div class="out_top">
+						<img src="img/5.jpg" class="pic">
+					</div>
+					<div class="out_bottom">
+						<img src="img/6.jpg" class="pic">
+					</div>
+					<!--小正方体 -->
+					<span class="in_front">
+						<img src="img/7.jpg" class="in_pic" />
+					</span>
+					<span class="in_back">
+						<img src="img/8.jpg" class="in_pic" />
+					</span>
+					<span class="in_left">
+						<img src="img/9.jpg" class="in_pic" />
+					</span>
+					<span class="in_right">
+						<img src="img/10.jpg" class="in_pic" />
+					</span>
+					<span class="in_top">
+						<img src="img/11.jpg" class="in_pic" />
+					</span>
+					<span class="in_bottom">
+						<img src="img/12.jpg" class="in_pic" />
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	</body>
 </html>
