@@ -71,33 +71,45 @@
 				</tr>
 				<tr>
 					<th scope="row">5</th>
+					<td>=COUNTIF()</td>
+					<td>按条件计数函数</td>
+					<td>COUNTIF(A1:A10,计数条件)</td>
+				</tr>
+				<tr>
+					<th scope="row">6</th>
 					<td>=MIN()</td>
 					<td>求最小值</td>
 					<td>=MIN(E2:E3)</td>
 				</tr>
 				<tr>
-					<th scope="row">6</th>
+					<th scope="row">7</th>
 					<td>=MAX()</td>
 					<td>求最大值</td>
 					<td>=MAX(E2:E3)</td>
 				</tr>
 				<tr>
-					<th scope="row">7</th>
+					<th scope="row">8</th>
 					<td><a style="font-weight: bold;" href="#if_fun">=IF()</a></td>
 					<td>条件判断</td>
 					<td>=IF(条件,条件成立,条件失败)</td>
 				</tr>
 				<tr>
-					<th scope="row">8</th>
+					<th scope="row">9</th>
 						<td><a style="font-weight: bold;" href="#ifs_fun">=IFS()</a></td>
 					<td>多条件判断</td>
 					<td>=IF(条件1,条件1成立[,条件2,条件2成立...])</td>
 				</tr>
 				<tr>
-					<th scope="row">9</th>
+					<th scope="row">10</th>
 						<td><a style="font-weight: bold;" href="#boolean">AND、OR、NOT</a></td>
 					<td>逻辑运算</td>
 					<td>=AND(多个布尔值)；=OR(多个布尔值)；=NOT(TRUE)</td>
+				</tr>
+				<tr>
+					<th scope="row">11</th>
+						<td><a style="font-weight: bold;" href="#vlookup">=VLOOKUP()</a></td>
+					<td>查询函数</td>
+					<td>=VLOOKUP(需要查找的内容,查找的范围,找到值的位置,匹配模式)</td>
 				</tr>
 			</tbody>
 		</table>
@@ -169,6 +181,20 @@
 				<li class="list-group-item">非运算：NOT（FALSE）；此时的返回结果为真，即：非运算将括号内值取反输出</li>
 			</ul>
 		</div>
+		
+		<div class="alert alert-danger" role="alert" id="vlookup" >
+			<h4 class="alert-heading">VLOOKUP()查询函数</h4>
+			<p>定义：=VLOOKUP(需要查询的内容可以是文本或者单元格引用,需要查找的范围，数据的查找范围，需要找到的值的列数在选择区域中的位置用数字表示，查找的匹配模式)</p>
+			<hr>
+			<ul class="list-group">
+				<li class="list-group-item active">说明 : </li>
+				<li class="list-group-item">VLOOKUP函数有四个参数，第四个参数为可选参数。</li>
+				<li class="list-group-item">参数1：需要查找的文本，可以是引用单元格，可以直接写成“查找内容”的形式。</li>
+				<li class="list-group-item">参数2：设置查找的区域，一个表格区域，该区域为整个已有的表格。</li>
+				<li class="list-group-item">参数3：参数1查询的值在参数2区域的列数，从左到右顺序。</li>
+				<li class="list-group-item">参数4：查询数据的匹配模式，使用布尔值（TRUE、FALSE），FALSE为精确匹配，TRUE为模糊匹配。</li>
+			</ul>
+		</div>
 
 		<hr />
 
@@ -182,7 +208,7 @@
 					width: 100%;
 					height: 250px;
 					/*改变左右上下,图片方块移动*/
-					margin: 100px 0px;
+					margin: 150px 0px;
 					position: absolute;
 
 				}
@@ -359,7 +385,14 @@
 			</div>
 		</div>
 
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+		
+		
+		<footer style="text-align: center;font-size: 12px;margin-top: 500px;">
+			  Copyright © 2020 Wjj9132 
+			  <p>Powered by .NET Core on Kubernetes</p>
+			</footer>
 
 	</body>
 </html>
